@@ -3,15 +3,26 @@ use std::fs;
 
 fn convert_to_number(mut s: String) -> String {
     s = s.replace("zero", "0");
-    s = s.replace("one", "1");
     s = s.replace("two", "2");
+    s = s.replace("one", "1");
     s = s.replace("three", "3");
     s = s.replace("four", "4");
     s = s.replace("five", "5");
     s = s.replace("six", "6");
     s = s.replace("seven", "7");
-    s = s.replace("eigth", "8");
+    s = s.replace("eight", "8");
     s = s.replace("nine", "9");
+    s = s.replace("ten", "10");
+    s = s.replace("eleven", "11");
+    s = s.replace("twelve", "12");
+    s = s.replace("twenty", "20");
+    s = s.replace("thirteen", "13");
+    s = s.replace("fourteen", "14");
+    s = s.replace("fifteen", "15");
+    s = s.replace("sixteen", "16");
+    s = s.replace("seventeen", "17");
+    s = s.replace("eighteen", "18");
+    s = s.replace("nineteen", "19");
 
     s
 }
