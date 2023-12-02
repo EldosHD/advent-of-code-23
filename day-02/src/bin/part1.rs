@@ -75,7 +75,7 @@ fn main() {
     for g in games {
         let mut game_possible = true;
         for t in g.trys {
-            if t.red >= 12 || t.blue >= 14 || t.green >= 13 {
+            if t.red > 12 || t.blue > 14 || t.green > 13 {
                 game_possible = false;
             }
         }
